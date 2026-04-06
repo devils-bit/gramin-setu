@@ -1,0 +1,22 @@
+# Logs and Cache
+__pycache__/
+*.log
+.pytest_cache/
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Vector DB & Local Data
+chroma_db/
+data/
+recordings/
+responses/
+
+# Optional: Environment Variables If they exist
+.env
